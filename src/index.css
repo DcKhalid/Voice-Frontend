@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.noteContainer {
+  border: 1px solid grey;
+  min-height: 15rem;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: gray;
+}
+
+button {
+  margin: 5px;
+}
